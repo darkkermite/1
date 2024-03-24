@@ -1,12 +1,17 @@
-document.getElementById("changeColorBtn").addEventListener("click", function() {
-    function getRandomColor() {
-        const letters = '0123456789ABCDEF';
-        let color = '#';
-        for (let i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
+document.addEventListener("DOMContentLoaded", function() {
+    function adjustBackgroundSize() {
+        if (window.innerHeight > window.innerWidth) {
+            // Portrait orientation
+            document.body.style.backgroundSize = 'contain';
+        } else {
+            // Landscape orientation
+            document.body.style.backgroundSize = 'cover';
         }
-        return color;
     }
-    
-    document.body.style.backgroundColor = getRandomColor();
+
+    // Adjust on initial load
+    adjustBackgroundSize();
+
+    // Adjust on resizing the window
+    window.addEventListener('resize', adjustBackgroundSize);
 });
