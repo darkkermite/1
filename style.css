@@ -2,14 +2,27 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
+    /* Setting the background image to an embedded GIF using its URL */
+    background-image: url(<iframe src="https://giphy.com/embed/l0O9yQUeL5kMTxqQo" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/l0O9yQUeL5kMTxqQo">via GIPHY</a></p>);
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
 }
 
 h1 {
     color: navy;
+    /* Adding a background color to text for readability */
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
 }
 
 p {
     color: darkgreen;
+    /* Adding a background color to text for readability */
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
 }
 
 button {
