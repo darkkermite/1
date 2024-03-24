@@ -4,6 +4,6 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
-    background: black url('YOUR_GIF_URL_HERE.gif') no-repeat center center fixed;
+    background: black url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXVkM3dqMHR6czk0NW45b3NiOXk1c294aGttcnR4aDk3a3A2NWY1eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y4n5dbvUWo1rVt9cMm/giphy.gif') no-repeat center center fixed;
     background-size: cover;
 }
